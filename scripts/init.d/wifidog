@@ -134,7 +134,7 @@ case "$1" in
           echo "  Error: ipt_mac not loaded"
           exit
         else
-          echo "  ipt_mac loaded sucessfully"
+          echo "  ipt_mac loaded successfully"
         fi
       fi
     else
@@ -158,7 +158,7 @@ case "$1" in
           echo "   Error: ipt_mark not loaded"
           exit
         else
-          echo "   ipt_mark loaded sucessfully"
+          echo "   ipt_mark loaded successfully"
         fi
       fi
       else
@@ -183,7 +183,7 @@ case "$1" in
           echo "  Error: ipt_REDIRECT not loaded"
           exit
         else
-          echo "  ipt_REDIRECT loaded sucessfully"
+          echo "  ipt_REDIRECT loaded successfully"
         fi
       fi
     else

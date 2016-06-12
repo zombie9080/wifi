@@ -108,7 +108,7 @@ AC_CHECK_HEADER(pthread.h, , AC_MSG_ERROR(You need the pthread headers) )
 AC_CHECK_LIB(pthread, pthread_create, , AC_MSG_ERROR(You need the pthread library) )
 
 # libhttpd dependencies
-echo "Begining libhttpd dependencies check"
+echo "Beginning libhttpd dependencies check"
 AC_CHECK_HEADERS(string.h strings.h stdarg.h unistd.h)
 AC_HAVE_LIBRARY(socket)
 AC_HAVE_LIBRARY(nsl)

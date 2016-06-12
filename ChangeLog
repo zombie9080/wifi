@@ -394,7 +394,7 @@
 
 2005-02-20 Mina Naguib <mina@ilesansfil.org>
 	* New safe.c with safe_malloc, safe_strdup, safe_asprintf and
-	safe_vasprintf with propper logging and exit when error. Replaced all
+	safe_vasprintf with proper logging and exit when error. Replaced all
 	instances of original with safe versions in all files
 	* Fix memory leak in iptables_fw_counters_update
 	* Partial merge from CaptiveDNS branch: Consolidated much of the networking

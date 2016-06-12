@@ -368,7 +368,7 @@ wdctl_reset(int fd, const char *arg)
     else {
         debug(LOG_DEBUG, "Client not found.");
         UNLOCK_CLIENT_LIST();
-        write_to_socket(fd, "No", 2);   /* Error handling in fucntion sufficient. */
+        write_to_socket(fd, "No", 2);   /* Error handling in function sufficient. */
 
         return;
     }

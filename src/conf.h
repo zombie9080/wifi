@@ -90,7 +90,7 @@ typedef struct _auth_serv_t {
     char *authserv_hostname;    /**< @brief Hostname of the central server */
     char *authserv_path;        /**< @brief Path where wifidog resides */
     char *authserv_login_script_path_fragment;  /**< @brief This is the script the user will be sent to for login. */
-    char *authserv_portal_script_path_fragment; /**< @brief This is the script the user will be sent to after a successfull login. */
+    char *authserv_portal_script_path_fragment; /**< @brief This is the script the user will be sent to after a successful login. */
     char *authserv_msg_script_path_fragment;    /**< @brief This is the script the user will be sent to upon error to read a readable message. */
     char *authserv_ping_script_path_fragment;   /**< @brief This is the ping heartbeating script. */
     char *authserv_auth_script_path_fragment;   /**< @brief This is the script that talks the wifidog gateway protocol. */

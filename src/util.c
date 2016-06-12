@@ -135,7 +135,7 @@ wd_gethostbyname(const char *name)
     struct in_addr *addr = NULL;
     struct in_addr *in_addr_temp = NULL;
 
-    /* XXX Calling function is reponsible for free() */
+    /* XXX Calling function is responsible for free() */
 
     addr = safe_malloc(sizeof(*addr));
 
