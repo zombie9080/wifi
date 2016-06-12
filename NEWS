@@ -141,7 +141,7 @@ WiFiDog 1.1.0:
 		* Respect SSL setting in auth server definition
 		* Explicitly allow traffic coming into the router
 		* SIGPIPE handling
-		* Firewall destruction not occuring on wifidog termination
+		* Firewall destruction not occurring on wifidog termination
 
 WiFiDog 1.1.0_beta3:
 	* Completely re-did the iptables rules. Most of the rules are now in the filter table 

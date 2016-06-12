@@ -70,7 +70,7 @@ thread_ping(void *arg)
     struct timespec timeout;
 
     while (1) {
-        /* Make sure we check the servers at the very begining */
+        /* Make sure we check the servers at the very beginning */
         debug(LOG_DEBUG, "Running ping()");
         ping();
 

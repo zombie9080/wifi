@@ -38,7 +38,7 @@
  * to result code from the central server itself.
  */
 typedef enum {
-    AUTH_ERROR = -1, /**< An error occured during the validation process*/
+    AUTH_ERROR = -1, /**< An error occurred during the validation process*/
     AUTH_DENIED = 0, /**< Client was denied by the auth server */
     AUTH_ALLOWED = 1, /**< Client was granted access by the auth server */
     AUTH_VALIDATION = 5, /**< A misnomer.  Client is in 15 min probation to validate his new account */

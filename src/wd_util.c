@@ -85,7 +85,7 @@ mark_offline()
         debug(LOG_INFO, "ONLINE status became %s", (after ? "ON" : "OFF"));
     }
 
-    /* If we're offline it definately means the auth server is offline */
+    /* If we're offline it definitely means the auth server is offline */
     mark_auth_offline();
 
 }
@@ -116,7 +116,7 @@ mark_auth_online()
         debug(LOG_INFO, "AUTH_ONLINE status became %s", (after ? "ON" : "OFF"));
     }
 
-    /* If auth server is online it means we're definately online */
+    /* If auth server is online it means we're definitely online */
     mark_online();
 
 }
@@ -141,7 +141,7 @@ int
 is_auth_online()
 {
     if (!is_online()) {
-        /* If we're not online auth is definately not online :) */
+        /* If we're not online auth is definitely not online :) */
         return (0);
     } else if (last_auth_online_time == 0
                || (last_auth_offline_time - last_auth_online_time) >= (config_get_config()->checkinterval * 2)) {
